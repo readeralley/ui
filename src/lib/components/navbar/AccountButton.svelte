@@ -1,1 +1,1 @@
-<div class="w-8 h-8 bg-green-200 rounded-full cursor-pointer" />
+<div class="h-8 w-8 cursor-pointer rounded-full bg-green-200" />

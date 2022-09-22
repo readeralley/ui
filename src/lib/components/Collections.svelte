@@ -2,8 +2,8 @@
 	const amount = Array(6);
 </script>
 
-<div class="flex w-full p-4 space-x-4">
+<div class="flex w-full space-x-4 p-4">
 	{#each amount as _}
-		<div class="h-40 bg-green-200 flex-grow rounded-md cursor-pointer" />
+		<div class="h-40 flex-grow cursor-pointer rounded-md bg-green-200" />
 	{/each}
 </div>

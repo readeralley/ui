@@ -1,3 +1,3 @@
 <a href="/">
-	<div class="uppercase font-bold text-xl text-slate-600 w-min">ra</div>
+	<div class="w-min text-xl font-bold uppercase text-slate-600">ra</div>
 </a>

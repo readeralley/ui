@@ -16,7 +16,7 @@
 drag
 
 <div
-	class="flex w-full p-4 space-x-4 overflow-x-auto"
+	class="flex w-full space-x-4 overflow-x-auto p-4"
 	bind:this={slider}
 	on:mousedown={startScroll}
 	on:mouseup={stopScroll}
@@ -24,7 +24,7 @@ drag
 >
 	{#each amount as _, i}
 		<div
-			class="h-40 w-32 bg-green-200 rounded-md select-none cursor-pointer flex-shrink-0 text-slate-700 flex items-center justify-center"
+			class="flex h-40 w-32 flex-shrink-0 cursor-pointer select-none items-center justify-center rounded-md bg-green-200 text-slate-700"
 			transition:slide
 		>
 			{i}
@@ -36,10 +36,10 @@ drag
 
 snap
 
-<div class="flex w-full p-4 space-x-4 overflow-x-auto snap-x">
+<div class="flex w-full snap-x space-x-4 overflow-x-auto p-4">
 	{#each amount as _, i}
 		<div
-			class="h-40 w-32 bg-green-200 rounded-md select-none cursor-pointer flex-shrink-0 text-slate-700 flex items-center justify-center snap-start scroll-ml-4"
+			class="flex h-40 w-32 flex-shrink-0 cursor-pointer select-none snap-start scroll-ml-4 items-center justify-center rounded-md bg-green-200 text-slate-700"
 			transition:slide
 		>
 			{i}
